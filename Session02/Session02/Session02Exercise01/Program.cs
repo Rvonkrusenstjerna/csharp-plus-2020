@@ -6,12 +6,10 @@ namespace Session02Exercise01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter your name");
+            String name = Console.ReadLine();
 
-            var integer = 0;
-            string stringValue = "MyStringValue";
-            Console.WriteLine("Integer is " + integer.ToString());
-            Console.WriteLine("The value of stringValue is: " + stringValue);
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
